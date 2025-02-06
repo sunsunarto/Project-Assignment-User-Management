@@ -1,0 +1,38 @@
+.addUserContainer{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h2{
+    color: rgb(168, 122, 242);
+  }
+}
+  
+.adduser-content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 45rem;
+  text-align: center;
+}
+.role{
+  margin-bottom: 10px;
+}
+.input{
+  color: rgb(168, 122, 242);
+}
+.closeButton{
+  border: none;
+  background: none;
+  color: rgb(168, 122, 242);
+  cursor: pointer;
+}
+.AddMemberButton{
+  background: linear-gradient(to right, #8B5CF6,#EC4899);
+  color: white;
+}
